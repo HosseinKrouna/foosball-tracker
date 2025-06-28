@@ -5,7 +5,7 @@ A simple PHP app to manage foosball matches, scores, and player stats.
 ## Live Demo
 
 You can try the project live here:  
-👉 [https://foosball-tracker.onrender.com](https://foosball-tracker.onrender.com)  
+👉 [foosball-tracker](https://foosball-tracker-u77b.onrender.com)
 
 ⚠️ Please note:  
 This app is hosted on Render’s free tier. If it hasn’t been accessed in a while, the server needs to "wake up", which can cause delays of up to **50 seconds** on the first request.
