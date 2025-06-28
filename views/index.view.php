@@ -24,7 +24,7 @@
                 <tbody>
                     <?php foreach($data['players_list'] as $player): ?>
                     <tr>
-                        <td><?= $player->player ?></td>
+                        <td><a href="detail.php?player=<?= $player->player ?>"><?= $player->player ?></a></td>
                         <td><?= $player->wins ?></td>
                         <td><?= $player->defeats ?></td>
                     </tr>
