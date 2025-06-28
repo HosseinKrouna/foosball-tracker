@@ -3,8 +3,7 @@ require('app/app.php');
 
 
 
-$player = filter_input(INPUT_GET, 'player', FILTER_VALIDATE_REGEXP,
- ['options' => ['regexp' => '/^[\w\s\-\'\:]+$/']]);
+$player = validate_get('player');
 
 
 if(!$player) {
@@ -19,7 +18,7 @@ if(!$one_player) {
 }
 
 $view_data = [
-    'title' => 'Detailansicht',
+    'title' => "Detailansicht",
     'player' => $one_player
 ];
 

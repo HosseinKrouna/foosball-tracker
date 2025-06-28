@@ -2,8 +2,7 @@
 require('app/app.php');
 
 
-$search_player = filter_input(INPUT_GET, 'search_player', FILTER_VALIDATE_REGEXP,
- ['options' => ['regexp' => '/^[\w\s\-\'\:]+$/']]);
+$search_player = validate_get('search_player');
 
 if($search_player) {
     $list_data = search_players($search_player);
@@ -13,7 +12,7 @@ if($search_player) {
 
 
 $view_data = [
-    'title' => 'Rangliste',
+    'title' => "Rangliste",
     'players_list' => $list_data,
     'search_value' => $search_player
 ];
