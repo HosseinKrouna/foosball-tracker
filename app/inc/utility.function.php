@@ -1,6 +1,6 @@
 <?php
 function view($template, $data = []) {
-    require("./views/layout.view.php");
+    require(APP_PATH . "views/layout.view.php");
 }
 
 function redirect($url) {

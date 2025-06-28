@@ -1,5 +1,5 @@
 <?php
 
 const CONFIG = [
-'filename' => 'data.json',
+'filename' => APP_PATH . 'data.json',
 ];
