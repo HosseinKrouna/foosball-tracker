@@ -1,4 +1,4 @@
-# FoosTrack
+# Foos-Tracker
 
 A simple PHP app to manage foosball matches, scores, and player stats.
 
