@@ -1,12 +1,12 @@
  [
     {
         "player": "Benjamin",
-        "wins": "15",
-        "defeats": "5"
+        "wins": "1000",
+        "defeats": "0"
     },
     {
         "player": "Elias",
-        "wins": "15",
-        "defeats": "5"    
+        "wins": "1000",
+        "defeats": "0"    
     }
 ]
