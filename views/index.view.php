@@ -13,6 +13,13 @@
                     <th>Niederlage</th>
                 </thead>
                 <tbody>
+                    <?php foreach($data['players_list'] as $player): ?>
+                    <tr>
+                        <td><?= $player->player ?></td>
+                        <td><?= $player->wins ?></td>
+                        <td><?= $player->defeats ?></td>
+                    </tr>
+                    <?php endforeach; ?>
                 </tbody>
             </table>
         </div>
